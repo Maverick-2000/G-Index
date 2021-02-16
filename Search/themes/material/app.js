@@ -754,10 +754,11 @@ function copyToClipboard(str) {
 // Document display video |mp4|webm|avi|
 function file_video(path) {
  const url = window.location.origin + path;
+ const url_without_https=url.replace(/^(https?:|)\/\//,'')
   let player_items = [
     {
-      text: 'MXPlayer(Free)',
-      href: `intent:${url}#Intent;package=com.mxtech.videoplayer.ad;S.title=${path};end`,
+      text: 'mpv',
+      href: `intent://${url_without_https}#Intent;type=video/any;package=is.xyz.mpv;scheme=https;end;`,
     },
     {
       text: 'MXPlayer(Pro)',
