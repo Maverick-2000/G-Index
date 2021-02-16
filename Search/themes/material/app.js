@@ -757,7 +757,7 @@ function file_video(path) {
  const url_without_https=url.replace(/^(https?:|)\/\//,'')
   let player_items = [
     {
-      text: 'mpv',
+      text: 'mpv-android',
       href: `intent://${url_without_https}#Intent;type=video/any;package=is.xyz.mpv;scheme=https;end;`,
     },
     {
