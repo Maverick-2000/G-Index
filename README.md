@@ -1,6 +1,6 @@
-<p align="center"><img src="img/logo.png" alt="LOGO"></p>
+<p align="center"><img src="https://raw.githubusercontent.com/Maverick-2000/G-Index/d03f2fc4c63b78c16f8c5a9f494089be5fee9f2d/img/logo.png" alt="LOGO"></p>
 <br>
-<p align="center"><img src="img/preview.png" alt="PREVIEW"></p>
+<p align="center"><img src="https://raw.githubusercontent.com/Maverick-2000/G-Index/d03f2fc4c63b78c16f8c5a9f494089be5fee9f2d/img/preview.png" alt="PREVIEW"></p>
 
 # Google Drive Index 
 
